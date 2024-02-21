@@ -8,7 +8,7 @@ import (
 )
 
 // ParamPattern - regex pattern to identify params
-const ParamPattern = `{{(#|)([\w\.]+?)(| .*?)(| [:a-z]+?)}}`
+const ParamPattern = `{{(#|)([\S\.]+?)(| .*?)(| [:a-z]+?)}}`
 
 // ParamType ..
 type ParamType int8
